@@ -1,0 +1,287 @@
+CRITICAL - 2023-09-18 10:19:34 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:20:12 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:23:50 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:31:01 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:35:53 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:35:59 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:36:35 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:37:01 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:37:37 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:39:59 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:40:02 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:40:43 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 10:46:40 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:14:27 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:15:11 --> Call to a member function getAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:16:45 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:38:12 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:39:54 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:39:56 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:39:57 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:39:57 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:39:57 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:39:57 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:02 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:12 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:14 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:14 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:15 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:15 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:15 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:15 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:15 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:16 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:16 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:16 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:16 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:16 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:16 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:17 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:17 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
+CRITICAL - 2023-09-18 11:41:17 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\jmlyn\\public\\index.php')
