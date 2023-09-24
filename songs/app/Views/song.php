@@ -15,7 +15,7 @@
     body {
          font-family: Arial, sans-serif;
          text-align: center;
-         background-color: #f5f5f5;
+         background-color: whitesmoke;
          padding: 20px;
      }
 
@@ -43,17 +43,17 @@
      #playlist li {
          cursor: pointer;
          padding: 10px;
-         background-color: #eee;
+         background-color: pink;
          margin: 5px 0;
          transition: background-color 0.2s ease-in-out;
      }
 
      #playlist li:hover {
-         background-color: #ddd;
+         background-color: violet;
      }
 
      #playlist li.active {
-         background-color: #007bff;
+         background-color: lightblue;
          color: #fff;
      }
     </style>
@@ -72,7 +72,7 @@
         <div class="modal-body">
           <br>
 
-         <ul class="list-unstyle-3">
+         <ul class="list-unstyled mt-3">
          <?php foreach ($playlists as $play):?>
           <li>
               <a href="/playlists/<?= $play ['id']?> ">
@@ -138,7 +138,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 <div class="modal-body">
-    <form action="<?= site_url('music/upload'); ?>" method="post" enctype="multipart/form-data">
+    <form action="/upload" method="post" enctype="multipart/form-data">
         <div class="mb-3">
             <label for="title" class="form-label">Title</label>
             <input type="text" class="form-control" id="title" name="title" required>
@@ -148,8 +148,8 @@
             <input type="text" class="form-control" id="artist" name="artist" required>
         </div>
         <div class="mb-3">
-            <label for="file_path" class="form-label">Music File (MP3)</label>
-            <input type="file" class="form-control" id="file_path" name="file_path" accept=".mp3" required>
+            <label for="file" class="form-label">Music File (MP3)</label>
+            <input type="text" class="form-control" id="file" name="file" accept=".mp3" required>
         </div>
         <button type="submit" class="btn btn-primary">Upload</button>
     </form>

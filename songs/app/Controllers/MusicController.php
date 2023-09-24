@@ -74,22 +74,32 @@ class MusicController extends BaseController
 
     }
     public function upload()
-    {
+{
+   
+    if ($this->request->getFile('file')) {
         $file = $this->request->getFile('file');
         $title = $this->request->getPost('title');
         $artist = $this->request->getPost('artist');
-        $newName = $title .'_' . $artist .'_' . 'mp3'; 
-        $file->move(ROOTPATH .'public/',$newName);
-     $data=
-        [
-           'title' =>$title,
-           'artist' =>$artist,
-           'file_path' =>$newName,
+        $newName = $title . '_' . $artist . '_' . 'mp3';
 
-        ];
-        $this->music->insert($data);
-        return redirect()->to('/song');
+      
+        if ($file->isValid() && !$file->hasMoved()) {
+            $file->move(ROOTPATH . 'public/', $newName);
+
+            $data = [
+                'title' => $title,
+                'artist' => $artist,
+                'file_path' => $newName,
+            ];
+
+            $this->music->insert($data);
+            
+            return redirect()->to('/song');
+       }
     }
+}
+
+  
     public function search()
     {
       

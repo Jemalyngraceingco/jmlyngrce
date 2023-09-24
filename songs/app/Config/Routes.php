@@ -11,7 +11,7 @@ $routes->post('/create', 'MusicController::create');
 $routes->post('/playlists/(:any)', 'MusicController::playlists/$1');
 $routes->post('/play/(:any)', 'MusicController::play/$1');
 $routes->post('/search', 'MusicController::search');
-$routes->post('music/upload', 'MusicController::upload');
+$routes->post('/upload', 'MusicController::upload');
 
 
 
