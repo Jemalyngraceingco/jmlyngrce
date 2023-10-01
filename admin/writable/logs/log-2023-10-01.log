@@ -1,0 +1,419 @@
+INFO - 2023-10-01 10:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 10:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-01 10:43:14 --> Undefined property: App\Controllers\MainController::$admin
+in APPPATH\Controllers\MainController.php on line 19.
+ 1 APPPATH\Controllers\MainController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\MainController::$admin', 'C:\\laragon\\www\\admin\\app\\Controllers\\MainController.php', 19, [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 10:45:13 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 10:45:20 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 10:45:40 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+ERROR - 2023-10-01 10:46:32 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\admin\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\laragon\www\admin\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', '', '', 'productlist', 3306, '', 0)
+#1 C:\laragon\www\admin\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\laragon\www\admin\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\laragon\www\admin\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\laragon\www\admin\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\admin\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\admin\app\Controllers\MainController.php(27): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\admin\system\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+#8 C:\laragon\www\admin\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\admin\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\admin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\admin\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\laragon\www\admin\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\laragon\www\admin\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\laragon\www\admin\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\admin\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\laragon\www\admin\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\laragon\www\admin\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\admin\app\Controllers\MainController.php(27): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\admin\system\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+#7 C:\laragon\www\admin\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 C:\laragon\www\admin\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\admin\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\admin\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-10-01 10:46:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `prod`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(27): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 10:46:53 --> Undefined variable: product
+in APPPATH\Views\admin.php on line 243.
+ 1 APPPATH\Views\admin.php(243): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: product', 'C:\\laragon\\www\\admin\\app\\Views\\admin.php', 243, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\admin\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\MainController.php(28): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:17:07 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:19:46 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:20:38 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:21:33 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:21:50 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:26:55 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:30:04 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:30:14 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:31:27 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:32:10 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\MainController.php(97): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\laragon\\www\\admin\\public/uploads/', '/image_.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:37:20 --> Undefined variable: pro
+in APPPATH\Views\admin.php on line 356.
+ 1 APPPATH\Views\admin.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pro', 'C:\\laragon\\www\\admin\\app\\Views\\admin.php', 356, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\admin\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\MainController.php(29): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:38:14 --> Undefined variable: pro
+in APPPATH\Views\admin.php on line 356.
+ 1 APPPATH\Views\admin.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pro', 'C:\\laragon\\www\\admin\\app\\Views\\admin.php', 356, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\admin\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\MainController.php(29): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:39:33 --> Undefined variable: pro
+in APPPATH\Views\admin.php on line 356.
+ 1 APPPATH\Views\admin.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pro', 'C:\\laragon\\www\\admin\\app\\Views\\admin.php', 356, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\admin\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\MainController.php(29): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 11:39:49 --> Undefined variable: pro
+in APPPATH\Views\admin.php on line 356.
+ 1 APPPATH\Views\admin.php(356): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pro', 'C:\\laragon\\www\\admin\\app\\Views\\admin.php', 356, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\admin\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\MainController.php(29): view('admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->jemalyn()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 12:16:04 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 12:16:42 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 12:16:43 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:01:20 --> Invalid file: "eccomerce.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('eccomerce.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('eccomerce', [], true)
+ 3 APPPATH\Controllers\MainController.php(21): view('eccomerce', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:02:26 --> Invalid file: "eccomerce.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('eccomerce.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('eccomerce', [], true)
+ 3 APPPATH\Controllers\MainController.php(21): view('eccomerce', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:02:56 --> Call to undefined method CodeIgniter\View\View::eccomerce()
+in APPPATH\Views\welcome_message.php on line 6.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\MainController.php(21): view('welcome_message', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:03:32 --> Invalid file: "eccomerce/end.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('eccomerce/end.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('eccomerce/end', null, true)
+ 3 APPPATH\Views\welcome_message.php(7): CodeIgniter\View\View->include('eccomerce/end')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\admin\\app\\Views\\welcome_message.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH\Controllers\MainController.php(21): view('welcome_message', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:05:38 --> Call to a member function findAll() on null
+in APPPATH\Controllers\MainController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:07:55 --> Invalid file: "view_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_message.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('view_message', [], true)
+ 3 APPPATH\Controllers\MainController.php(20): view('view_message')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:08:14 --> Invalid file: "velcome_message.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('velcome_message.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('velcome_message', [], true)
+ 3 APPPATH\Controllers\MainController.php(20): view('velcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:14:52 --> Invalid file: "views/eccomerce.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('views/eccomerce.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('views/eccomerce', [], true)
+ 3 APPPATH\Controllers\MainController.php(20): view('views/eccomerce')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->eccomerce()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+INFO - 2023-10-01 13:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 13:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-01 13:17:30 --> Undefined variable: admin
+in APPPATH\Views\admin.php on line 304.
+ 1 APPPATH\Views\admin.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: admin', 'C:\\laragon\\www\\admin\\app\\Views\\admin.php', 304, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\admin\\app\\Views\\admin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin', [], true)
+ 5 APPPATH\Controllers\MainController.php(62): view('admin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+INFO - 2023-10-01 13:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 13:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-01 13:25:33 --> Invalid file: "views/eccomerce.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('views/eccomerce.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('views/eccomerce', [], true)
+ 3 APPPATH\Controllers\MainController.php(20): view('views/eccomerce')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->eccomerce()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:25:46 --> Invalid file: "eccomerce.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('eccomerce.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('eccomerce', [], true)
+ 3 APPPATH\Controllers\MainController.php(20): view('eccomerce')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->eccomerce()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:37:12 --> Invalid file: "eccomerce.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('eccomerce.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('eccomerce', [], true)
+ 3 APPPATH\Controllers\MainController.php(20): view('eccomerce')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->eccomerce()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:38:36 --> Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\MainController.php(20): view('')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->eccomerce()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:41:00 --> Invalid file: ".php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\MainController.php(20): view('')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->eccomerce()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+CRITICAL - 2023-10-01 13:43:46 --> Invalid file: "eccomerce/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('eccomerce/header.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('eccomerce/header', null, true)
+ 3 APPPATH\Views\welcome_message.php(5): CodeIgniter\View\View->include('eccomerce/header')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\admin\\app\\Views\\welcome_message.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\admin\\public\\index.php')
+INFO - 2023-10-01 13:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 13:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 13:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-01 13:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
